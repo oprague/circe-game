@@ -18,7 +18,7 @@ function updateElementPosition(id, x, y) {
 }
 function appendNewTile(tile, x, y) {
 	const container = document.getElementById('game-object-container');
-	const newTile = '<img src="../graphics/tiles/' + tile + '.png" class="tile" style="left: ' + x * TILESIZE + 'px; top: ' + y * TILESIZE + 'px;">';
+	const newTile = '<img src="graphics/tiles/' + tile + '.png" class="tile" style="left: ' + x * TILESIZE + 'px; top: ' + y * TILESIZE + 'px;">';
 	container.innerHTML += newTile;
 }
 /*
@@ -159,14 +159,14 @@ function main() {
 		'animationFrameLength': 10,
 		'animationClock': 0,
 		'frames': {
-			'idle': ['../graphics/player/idle/1.png'],
+			'idle': ['graphics/player/idle/1.png'],
 			'walk': [
-				'../graphics/player/walk/1.png',
-				'../graphics/player/walk/2.png',
-				'../graphics/player/walk/3.png',
-				'../graphics/player/walk/4.png'
+				'graphics/player/walk/1.png',
+				'graphics/player/walk/2.png',
+				'graphics/player/walk/3.png',
+				'graphics/player/walk/4.png'
 			],
-			'jump': ['../graphics/player/jump/1.png']
+			'jump': ['graphics/player/jump/1.png']
 		}
 	};
 
